@@ -1,7 +1,7 @@
 # DigitalOcean Practical Test — Docker CI/CD
 
-**Production:** https://142.93.253.232.sslip.io  
-**QA:** https://qa.142.93.253.232.sslip.io  
+**Production:** https://192.81.212.73.sslip.io  
+**QA:** https://qa.192.81.212.73.sslip.io  
 **Public GitHub repository:** https://github.com/kushalpatel71/do-practical-test.git
 
 ## Architecture
@@ -24,7 +24,7 @@ Complete this section **after** successful live runs; don't claim an unverified 
 
 - Successful QA GitHub Actions run: PASTE_QA_RUN_URL
 - Successful production GitHub Actions run: PASTE_PRODUCTION_RUN_URL
-- Registry location: `ghcr.io/YOUR_GITHUB_USERNAME/do-practical-test` (replace username; make the package public)
+- Registry location: `ghcr.io/kushalpatel71/do-practical-test` (replace username; make the package public)
 - QA deployed image/commit: PASTE_QA_SHA
 - Production deployed image/commit: PASTE_PRODUCTION_SHA
 - QA screenshot after changing Version 1 to Version 2: `evidence/qa.png`

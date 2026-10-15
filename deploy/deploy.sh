@@ -31,7 +31,7 @@ docker run -d \
   "$image"
 
 curl --fail --silent --show-error \
-  --retry 8 --retry-delay 2 --retry-connrefused \
+  --retry 12 --retry-delay 2 --retry-all-errors \
   "http://127.0.0.1:${port}/" >/dev/null
 
 echo "Success: $environment is healthy at http://127.0.0.1:$port/"
