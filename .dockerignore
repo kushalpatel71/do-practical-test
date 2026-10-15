@@ -1,0 +1,7 @@
+.git
+.github
+README.md
+deploy
+evidence
+*.zip
+.DS_Store

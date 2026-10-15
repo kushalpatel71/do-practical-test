@@ -1,0 +1,7 @@
+142.93.253.232.sslip.io {
+    reverse_proxy 127.0.0.1:8082
+}
+
+qa.142.93.253.232.sslip.io {
+    reverse_proxy 127.0.0.1:8081
+}
