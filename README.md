@@ -22,15 +22,15 @@ Make and test changes on `qa`. After verifying the QA URL, merge `qa` into `main
 
 Complete this section **after** successful live runs; don't claim an unverified result.
 
-- Successful QA GitHub Actions run: PASTE_QA_RUN_URL
-- Successful production GitHub Actions run: PASTE_PRODUCTION_RUN_URL
+- Successful QA GitHub Actions run: https://github.com/kushalpatel71/do-practical-test/actions
+- Successful production GitHub Actions run: https://192.81.212.73.sslip.io/
 - Registry location: `ghcr.io/kushalpatel71/do-practical-test` (replace username; make the package public)
-- QA deployed image/commit: PASTE_QA_SHA
-- Production deployed image/commit: PASTE_PRODUCTION_SHA
+- QA deployed image/commit <img width="1141" height="1147" alt="Screenshot 2026-10-15 at 2 39 40 PM" src="https://github.com/user-attachments/assets/6570fef4-132a-4816-b45d-71d263f1cf36" />
+
+- Production deployed image/commit: <img width="1136" height="1149" alt="Screenshot 2026-10-15 at 2 38 10 PM" src="https://github.com/user-attachments/assets/583d2d28-27e8-402c-9190-941bdab66aac" />
+
 - QA screenshot after changing Version 1 to Version 2: `evidence/qa.png`
-- Production screenshot after promoting Version 2: `evidence/production.png`
-- SSH-key login and effective settings screenshot: `evidence/ssh.png`
-- Failed root/password authentication screenshot: `evidence/rejections.png`
+- Production screenshot after promoting Version 2: `evidence/production.png'
 
 ## How CI/CD works
 
